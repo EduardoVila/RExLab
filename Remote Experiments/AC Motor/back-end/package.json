@@ -1,0 +1,30 @@
+{
+  "name": "motor",
+  "version": "1.0.2",
+  "description": "Lab server motor",
+  "main": "appe.js",
+  "dependencies": {
+    "async": "latest",
+    "backoff": "latest",
+    "cors": "^2.8.1",
+    "express": "^4.13.3",
+    "jsonexport": "latest",
+    "modbus-serial": "^5.1.2",
+    "node-gyp": "^3.7.0",
+    "node-rest-client": "^3.1.0",
+    "purge": "^1.0.0",
+    "serialport": "^6.2.2",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.1"
+  },
+  "scripts": {
+    "test": "node apps.js"
+  },
+  "config": {
+    "unsafe-perm": true
+  },
+  "author": "João Paulo Cardoso de Lima",
+  "license": "MIT"
+}

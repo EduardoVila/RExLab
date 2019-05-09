@@ -1,0 +1,7 @@
+var lab = require('./lab.js'); 
+lab.
+
+
+lab.getCorrente(function(err, temp) {
+    console.log('getCorrente',err,temp);
+});
