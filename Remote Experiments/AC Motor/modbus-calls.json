@@ -1,0 +1,109 @@
+{
+    "getRPM": {
+        "type": "read",
+        "address": "0x302",
+        "nRegs": 1
+    },
+    "setMotor":{
+        "type": "write",
+        "address":"0x405",
+        "nRegs":1
+    },
+    "getTemperaturaMotor":{
+        "type":"read",
+        "address":"0x304",
+        "nRegs": 1
+    },  
+    "getTemperaturaAmbiente":{
+        "type":"read",
+        "address":"0x30C",
+        "nRegs": 1
+    },  
+    "getCorrente":{
+        "type":"read",
+        "address":"0x301",
+        "nRegs": 1
+    },
+    "getInfo": {
+        "type": "read",
+        "address": 0,
+        "nRegs": 3
+    },
+    "setVisor1":{
+        "type": "write",
+        "address":"0x401",
+        "nRegs":1
+    },
+    "setVisor2":{
+        "type": "write",
+        "address":"0x402",
+        "nRegs":1
+    },
+    "setVisor3":{
+        "type": "write",
+        "address":"0x403",
+        "nRegs":1
+    },
+    "checkMotor":{
+        "type": "read",
+        "address":"0x404",
+        "nRegs":1
+    },
+    "val1":{
+        "type": "read",
+        "address":"0x409",
+        "nRegs":1
+    },
+    "val2":{
+        "type": "read",
+        "address":"0x40D",
+        "nRegs":1
+    },
+    "val4":{
+        "type": "read",
+        "address":"0x415",
+        "nRegs":1
+    },
+    "val5":{
+        "type": "read",
+        "address":"0x441",
+        "nRegs":1
+    },
+    "val6":{
+        "type": "read",
+        "address":"0x44D",
+        "nRegs":1
+    },
+    "val7":{
+        "type": "read",
+        "address":"0x469",
+        "nRegs":1
+    },
+    "val8":{
+        "type": "read",
+        "address":"0x46D",
+        "nRegs":1
+    },
+    "val9":{
+        "type": "read",
+        "address":"0x481",
+        "nRegs":1
+    },
+    "val10":{
+        "type": "read",
+        "address":"0x495",
+        "nRegs":1
+    },
+    "val11":{
+        "type": "read",
+        "address":"0x50D",
+        "nRegs":1
+    },
+    "val12":{
+        "type": "read",
+        "address":"0x515",
+        "nRegs":1
+    }
+} 
+
+  
